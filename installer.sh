@@ -63,7 +63,7 @@ function _install_clash_premium() {
     
     assert mkdir -p "$tmp_dir"
     
-    assert wget "assert wget "https://github.com/zhongfly/Clash-premium-backup/releases/download/2023-09-05-gdcc8d87/clash-linux-amd64-v3-n2023-09-05-gdcc8d87.gz" -O "$tmp_dir/clash_premium.gz"
+    assert wget "https://github.com/zhongfly/Clash-premium-backup/releases/download/2023-09-05-gdcc8d87/clash-linux-amd64-v3-n2023-09-05-gdcc8d87.gz" -O "$tmp_dir/clash_premium.gz"
     
     assert gzip -d -f "$tmp_dir/clash_premium.gz"
     
